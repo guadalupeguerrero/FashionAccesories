@@ -1,0 +1,109 @@
+
+.caption{
+	.precio{
+		margin-top: 1rem;
+	}
+}
+
+.etiqueta{
+	background: $color-3;
+	width: 5rem;
+	position: absolute;
+	margin-top: 3.5rem;
+	text-align: center;
+	color: $white;
+	margin-left: 0.2rem;
+}
+
+.etiqueta_2{
+	background: black;
+	width: 5rem;
+	position: absolute;
+	margin-top: 0rem;
+	text-align: center;
+	color: $white;
+	margin-left: 0.2rem;
+}
+
+/* Boton para regresar al menu*/
+
+#back-to-top{
+	position: absolute;
+	z-index: 1;
+	bottom: 15%;
+	right:-28%;
+	display: none;
+}
+
+
+.btn{
+	background: $color-3!important;
+	color: $white;
+	display: inline-block;
+	width: 4rem;
+	height: 4rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	font-size: 2rem;
+	padding-right:3rem;
+	margin-left: 23rem;
+	margin-bottom: 11rem;
+}
+
+.latest{
+	padding-bottom: 5rem;
+}
+
+/*Banner logo de marcas*/
+.marcas{
+	background-image: url(../images/client-bg.jpg);
+  width: 100%;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Division seccion*/
+.line-section{
+	border-top: 3px double $color-2;
+	margin-top: -5rem;
+	margin-bottom: 5rem;
+}
+
+.bg-white{
+	position: absolute;
+	background: $white;
+	width: 24%;
+	height: 3rem;
+	z-index: 1;
+	margin-top: -5.5%;
+	margin-left: 27.5%;
+}
+
+.seccion{
+	display: inline-block;
+	top: 1em;
+	padding-left: 0em;
+	margin-right: 0;
+	padding-bottom: 1em;
+}
+
+.lista-latest{
+	font-size: 1.5rem;
+	padding-left: 4rem;
+}
+
+.latest ul li a{
+	color: $color-1!important;
+	text-decoration: none;
+	&:hover,
+	&:focus{
+		color:$color-2!important;
+	}
+}
+
+.latest .active a{
+	color: $color-2!important;
+}
+

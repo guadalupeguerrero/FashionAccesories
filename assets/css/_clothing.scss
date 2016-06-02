@@ -1,0 +1,64 @@
+.clothing{
+	padding-top: 10rem;
+	padding-bottom: -4rem;
+}
+
+.clothing ul li a{
+	color: $color-1!important;
+	text-decoration: none;
+	&:hover,
+	&:focus{
+		color:$color-2!important;
+	}
+}
+
+.clothing .active a{
+	color: $color-2!important;
+}
+
+.bg-white-clothe{
+	position: absolute;
+	background: $white;
+	width: 30%;
+	height: 3rem;
+	z-index: 1;
+	margin-top: -5.5%;
+	margin-left: 24.5%;
+}
+
+.seccion{
+	display: inline-block;
+	top: 1em;
+	padding-left: -7rem;
+	margin-right: 0;
+	padding-bottom: 1em;
+}
+
+.media-object{
+	width: 10rem;
+	height: 10rem;
+}
+
+.oferta{
+	font-size: 1.6rem;
+	color: $color-3;
+	font-weight: 200;
+}
+
+.btn-common {
+  background: $color-2;
+  width: 11.5rem;
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem; }
+  .btn-common a {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 300; }
+    .btn-common a:hover, .btn-common a:focus {
+      color: #fff;
+      text-decoration: none; }
+
+.margin-clothe{
+	margin-bottom: 2rem;
+}      

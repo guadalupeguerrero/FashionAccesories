@@ -1,0 +1,106 @@
+.brand{
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+.hora{
+	font-size: 1.2rem;
+}
+
+.clock-icon{
+	padding-top: 2rem;
+}
+
+.horario{
+	margin-left: 4rem;
+	margin-top: -3.8rem;
+}
+
+.inner-addon { 
+    position: relative;
+    margin-top: 2.2rem;
+    .glyphicon{
+    position: absolute;
+	padding: 10px;
+	pointer-events: none;
+	right: 0px;
+	color: $color-2;
+    } 
+}
+
+
+/*navegador dos*/
+
+.mini_cart_wrap {
+    float: right;
+    padding: 18px 0 19px;
+	.mini_cart{
+		display: block;
+	}
+}
+
+
+.navbar-default {
+	background-color: $color-1;
+	border-color: transparent;
+	width: 100%;
+
+	.navbar-nav > .active > a {
+	background: $color-3;
+	color: $white;
+	>&:hover,
+	>&:focus{
+  	background-color: $color-3!important;
+	}
+	}
+}
+
+/*Carousel principal image*/
+
+   .carousel-control {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    opacity: 3;
+    padding-top: 15rem;
+    font-size: 5rem;
+    color: $white;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+}
+
+.header-gray{
+	#menu{
+		li{
+			right: 1.4rem;
+		}
+	}
+}
+
+.images{
+	padding: 5rem 0 10rem 0;
+}
+
+.box-black{
+	background: black;
+	color: $white!important;
+	font-size: 1.5rem;
+	font-weight: 200;
+	height: 5rem;
+
+	.span{
+		font-size: 1rem;
+		margin-top: -1.3rem;
+	}
+}
+
+body{
+
+overflow-x: hidden;
+}
+
+.mg-box-1{
+	margin-top: -0.8rem;
+}

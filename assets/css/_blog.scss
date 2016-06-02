@@ -1,0 +1,50 @@
+.blog{
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+.blog ul li a{
+	color: $color-1!important;
+	text-decoration: none;
+	&:hover,
+	&:focus{
+		color:$color-2!important;
+	}
+}
+
+.blog .active a{
+	color: $color-2!important;
+}
+
+.bg-white-blog{
+	position: absolute;
+	background: $white;
+	width: 15%;
+	height: 3rem;
+	z-index: 1;
+	margin-top: -5.5%;
+	margin-left: 35%;
+	padding-left: 1.5rem;
+}
+
+.border{
+	border: 1px solid $color-1;
+	width: 100%;
+	height: 5rem;
+	margin-top: 2rem;
+
+	.icons{
+		padding-left: 2.5rem;
+		margin-top: 1rem;
+	}
+
+	.sub-oferta{
+		padding-left: 7rem;
+		margin-top: -2.9rem;
+	}
+	.info-oferta{
+		padding-left: 0rem;
+		margin-top: 0.4rem;
+		font-size: 1.2rem;
+	}
+}

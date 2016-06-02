@@ -1,0 +1,47 @@
+.contact-principal{
+	background-image: url(../images/blog4.jpg);
+  width: 100%;
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding-top: 17rem;
+  }
+
+.bg-coral{
+	background: $color-3;
+	color: $white;
+	padding:0.1rem 1rem;
+	width: 70%; 
+}
+
+.contacto{
+	letter-spacing: 0.5rem;
+	font-size: 5rem;
+}
+
+.informacion{
+	font-size: 1.2rem;
+}
+
+.ubicacion{
+	padding-bottom: 7rem;
+	padding-top: 4rem;
+}
+
+.mgbtn20{
+	margin-bottom: 4rem;
+}
+
+.form-control{
+	background: $color-1;
+	color: $color-2;
+}
+
+.btn-lg{
+	width: 20%!important;
+	color: $white;
+	background: $color-2!important;
+	border-radius: 0;
+	margin-bottom: 1.5rem;
+	padding-left: 2.8rem;
+}

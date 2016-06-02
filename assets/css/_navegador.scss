@@ -1,0 +1,50 @@
+/*NAVEGADOR*/
+.header
+{
+	background: $color-1;
+	height: 6rem;
+	position: fixed;
+	width: 100%;
+	z-index:999;
+	
+}
+
+.sublogo
+{
+	color: $color-2;
+	font-weight: 200;
+	font-size: 1.5rem;
+	padding: 0rem !important;
+	line-height: 6rem;
+	&:hover,
+	&:active{
+		color: $color-3;
+	}
+}
+
+.menu{
+
+	margin:0rem !important;
+	border: none;
+
+	li a{
+	color: #434F5B;
+	font-weight:200;
+	line-height: 2.9rem;
+	background-color: $color-1;
+	&:hover{
+	background-color: $color-1;
+	color:$color-3;
+	z-index:999;
+	}
+	}
+}
+
+
+.menu-button
+{
+	color: $color-2;
+	font-size: 30px;
+	margin:0rem !important;
+	padding:9px;
+}
